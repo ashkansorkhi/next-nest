@@ -5,7 +5,7 @@ import Carts from "/components/carts"
 import Footer from '/components/footer'
 fetch('https://fakestoreapi.com/products')
             .then(res=>res.json())
-            .then(json=>console.log(json))
+            .then(json=>console.log(json)) 
 
 export default function Home() {
   return (
