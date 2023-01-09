@@ -13,7 +13,19 @@ export default function Header() {
       
           <Link underline="hover" color="inherit" href="/" className={style.links}>
           Home 
-          </Link>       
+          </Link>  
+          <Link underline="hover" color="inherit" href="#">
+    Electrinics
+  </Link>
+  <Link underline="hover" color="inherit" href="#">
+  Jewelery
+  </Link>     
+  <Link underline="hover" color="inherit" href="#">
+  Men's clothing
+  </Link> 
+  <Link underline="hover" color="inherit" href="#">
+  Women's clothing
+  </Link> 
           <Link underline="hover" color="inherit" href="/about" className={style.links}>
             About
           </Link>    
