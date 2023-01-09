@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+  
+}
+.footer{
+    background-color :rgb(229, 226, 226);
+    bottom:0;
+ height: 200px;
+ border-radius: 10px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+    }
